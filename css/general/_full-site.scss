@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: $black;
+    background-size: cover;
+  }
+
+
+  
+  .hr {
+   height: 300px;
+    border: none;
+    outline: none;
+    position: relative;
+    justify-content: center;
+    content: attr(data-symbol);
+    color: $color-primary;
+  }
